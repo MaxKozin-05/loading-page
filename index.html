@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lincd</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+</head>
+
+<body>
+  <div class="navbar">
+      <a class="navbar-brand" href="https://www.linkedin.com/company/lincdrecruitment/posts/?feedView=all">
+        <img src="https://media.licdn.com/dms/image/v2/D560BAQFr0YABjsA02A/company-logo_200_200/B56ZX_IodiHQAI-/0/1743742208302/lincdrecruitment_logo?e=2147483647&v=beta&t=NTkys_rEn3DpmSGj5myvZQyqym5uPWldp0Sivni_S8s" alt="Bootstrap" width="60">
+      </a>
+    </div>
+  </nav>
+
+  <div class="body-centered" style="background-image: url('http://images.pexels.com/photos/1437493/pexels-photo-1437493.jpeg'); height: 92vh; background-size: cover;">
+    <div class="recruiting_for">
+      <h1>
+        <span class="static-text">We recruit for&nbsp;</span>
+        <span id="role-text">Site Managers</span>
+      </h1>
+
+    <script>
+      const roles = ["Site Managers", "Project Managers", "Contract Administrators", "Estimators"];
+      const roleSpan = document.getElementById("role-text");
+      let index = 0;
+
+      setInterval(() => {
+        roleSpan.style.opacity = 0;
+        setTimeout(() => {
+          roleSpan.innerText = roles[index];
+          roleSpan.style.opacity = 1;
+          index = (index + 1) % roles.length;
+        }, 300); // match this to the transition timing
+      }, 2000);
+    </script>
+
+    <div>
+    <h1 id="loading-text">New Website Coming Soon</h1>
+      <div class="links">
+      <a href="https://www.linkedin.com/company/lincdrecruitment/posts/?feedView=all" class="button1"><bold>linkedin</bold></a>
+      <a href="https://www.linkedin.com/company/lincdrecruitment/posts/?feedView=all" class="button"><bold>0480348388</bold></a>
+      <a href="https://www.linkedin.com/company/lincdrecruitment/posts/?feedView=all" class="button1"><bold>Email   </bold></a>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

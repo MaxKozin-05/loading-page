@@ -1,0 +1,83 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background-color: rgb(236, 1, 140);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.navbar a {
+  margin-left: 25px;
+  text-align: center;
+}
+
+.recruiting_for h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.recruiting_for {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#role-text {
+  display: inline-block;
+  width: 380px;
+  text-align: left;
+  transition: opacity 0.3s ease;
+}
+
+.body-centered {
+  text-align: center;
+}
+
+
+
+.body-centered h1 {
+  color: black;
+  margin-top: 60px;
+  opacity: 60%;
+}
+
+.role-text {
+  border: 2px solid rgb(236, 1, 140);
+  color: white;
+  background-color:rgb(236, 1, 140) ;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(236, 1, 140);
+  color: black;
+  margin-top: 60px;
+  text-decoration: none;
+}
+
+.button1 {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(236, 1, 140);
+  color: black;
+  margin-top: 60px;
+  text-decoration: none;
+  width: 100px;
+}
